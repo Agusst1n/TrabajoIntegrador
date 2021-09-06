@@ -1,0 +1,105 @@
+body{
+    background-color: #D1BF91;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.foto{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #60371E;
+    border-radius: 5px;
+}
+.flex-container > div {
+    border-radius: 5px;
+    background-color: #F9C743;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 30px;
+}
+
+.pizzeria{
+    display: flex;
+    flex-wrap: nowrap;
+   
+    font-size: 15px ;
+    margin-left: 4px;
+    margin-top: 2%;
+    
+}
+
+.pizzeria > div{
+    border: 10px solid #60371E;
+    background-color: #F9C743;
+    text-align: center;
+    padding: 2px;
+}
+
+.div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+    text-align: center;
+    position: absolute;
+    top: 55%;
+    left: 35%;
+    background-color:#C7C8C4;
+    border: 10px solid #60371E;
+    padding: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+.mensaje{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.form {
+    text-align: center;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 35px;
+}
+
+.fondo{
+    background-image:url(./images/chefpizza.png);
+}
+
+.text{
+    font-size: px;
+    color: black;
+    background-color: #D1BF91;
+}
+
+.home {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 5px;
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    right: 30%;
+    
+    
+    background-color:#C7C8C4;
+    border: 10px solid #60371E;
+    padding: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
