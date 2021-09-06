@@ -1,2 +1,2 @@
 # TrabajoIntegrador
-Mi primer repositorio en GitHub
+Trabajo integrador
