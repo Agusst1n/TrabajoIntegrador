@@ -1,105 +1,130 @@
-body{
-    background-color: #D1BF91;
-    
+/* #D1BF91
+ #60371E
+#A6341B
+#F9C743
+#C7C8C4 */
+
+body {
+  margin: 0;
+  background-color: #d1bf91;
+  font-family: "Quicksand", sans-serif;
 }
 
-a{
-    text-decoration: none;
+b {
+  font-family: "Quicksand", sans-serif;
 }
 
-.foto{
-    display: flex;
-    flex-wrap: nowrap;
-    
-    
+a {
+  text-decoration: none;
+  color:black;
 }
 
-.flex-container{
-    display: flex;
-    flex-wrap: nowrap;
-    background-color: #60371E;
-    border-radius: 5px;
+#menu :hover {
+  background-color: #a6341b;
+  color: #c7c8c4;
+  font-size: 29px;
 }
+::selection {
+  background-color: white; 
+  color: #19d897;
+}
+
+h1{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 35px;
+  margin: 0%;
+  color: #c7c8c4;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  margin: 0%;
+  background-color: #d1bf91;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-img {
+  height: 40vh;
+  background-image: url(./images/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.foto {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.sticky {
+  position: sticky;
+  top: 0%;
+}
+.flex-container {
+  display: flex;
+  background-color: #60371e;
+}
+
 .flex-container > div {
-    border-radius: 5px;
-    background-color: #F9C743;
-    width: 100%;
-    margin: 5px;
-    text-align: center;
-    line-height: 30px;
-    font-size: 30px;
+  border-radius: 5px;
+  background-color: #f9c743;
+  width: 100%;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
 }
 
-.pizzeria{
-    display: flex;
-    flex-wrap: nowrap;
-   
-    font-size: 15px ;
-    margin-left: 4px;
-    margin-top: 2%;
-    
+.pizzeria {
+  display: flex;
+  font-size: 15px;
+  margin-left: 4px;
+  margin-top: 2%;
 }
 
-.pizzeria > div{
-    border: 10px solid #60371E;
-    background-color: #F9C743;
-    text-align: center;
-    padding: 2px;
+.pizzeria > div {
+  border: 10px solid #60371e;
+  background-color: #f9c743;
+  text-align: center;
+  padding: 2px;
 }
 
-.div{
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 5px;
-    text-align: center;
-    position: absolute;
-    top: 55%;
-    left: 35%;
-    background-color:#C7C8C4;
-    border: 10px solid #60371E;
-    padding: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
+.mensaje {
+  display: flex;
+  flex-wrap: nowrap;
 }
 
-.mensaje{
-    display: flex;
-    flex-wrap: nowrap;
-    
+.boton-principal {
+  color: #c7c8c4;
+  padding: 10px;
+  background-color: #a6341b;
+  border-radius: 10px;
+  border: 5px solid #c7c8c4;
 }
 
 .form {
-    text-align: center;
+  text-align: center;
 }
 
-.titulo{
-    text-align: center;
-    font-size: 35px;
+.fondo {
+  background-image: url(./images/pizza\ chica.png);
 }
 
-.fondo{
-    background-image:url(./images/chefpizza.png);
-}
-
-.text{
-    font-size: px;
-    color: black;
-    background-color: #D1BF91;
-}
-
-.home {
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 5px;
-    text-align: center;
-    position: absolute;
-    top: 75%;
-    left: 30%;
-    right: 30%;
-    
-    
-    background-color:#C7C8C4;
-    border: 10px solid #60371E;
-    padding: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.contenedor-principal {
+  display: flex;
+  margin: 5px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  background-color: #c7c8c4;
+  border: 10px solid #60371e;
+  padding: 20px;
 }
