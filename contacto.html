@@ -17,13 +17,15 @@
     <div class="banner-img" alt="">
         <h1>Pizzerías de Buenos Aires</h1>
     </div>
-    <div class="flex-container">
+
+    <div id="menu" class="flex-container sticky">
 
         <div><a href="./index.html">Página principal</a></div>
         <div><a href="./pizzeria.html">Pizzerias notables</a></div>
         <div><b><a href="./contacto.html">Contactos</a></b> </div>
     </div>
-    <div class="div">
+
+    <div class="contenedor-principal">
         <form class="form">
             <h1>Pedidos</h1>
             <label for="Nombre">Nombre:</label>
@@ -34,19 +36,21 @@
             <input type="email" id="email" name="Su email">
             </br>
             <br>
-
+            <label for="Pizzeria">Pizzeria:</label>
+            <input type="text" id="Pizzeria" name="Pizzeria">
+            </br>
+            <br>
             <label class="mensaje" for="mensaje">Mensaje:</label>
             <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Realizar pedido"></textarea>
-
             <br>
             <br>
             Desea recibir promociones<input type="checkbox" id="notificacion" value="Si">
             <br>
             <br>
-            <input type="submit" value="Enviar">
-
+            <input type="submit" class="boton-principal" onclick="pedidoRealizado();" value="Realizar pedido">
         </form>
     </div>
+            <script src="./app.js"></script>
 </body>
 
 </html>
